@@ -1,6 +1,8 @@
 body
 {
     background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
 }
 header
 {
@@ -15,4 +17,19 @@ header
 h1
 {
     color: white;
+}
+nav
+{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+a
+{
+   padding: 15px;
+   background-color: #fee2c5;
+   color: black;
 }
