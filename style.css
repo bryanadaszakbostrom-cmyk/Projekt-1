@@ -33,3 +33,21 @@ a
    background-color: #fee2c5;
    color: black;
 }
+article
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+}
+p
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
